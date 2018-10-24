@@ -6,10 +6,13 @@
 -->
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="Keywords" content="paraquedismo, boituva, gofly, esportes, esportes radicais, adrenalina, voo livre">
+	<meta http-equiv="Description" content="Site de promoção de esportes radicais no estado de São Paulo, com público do mundo interio.">
 	<meta name="viewport" content="width=device-width">
 	<meta name="author" content="Thiago Brito">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-	<title>Skyfall - Saltos de Paraquedas</title>
+	<link rel="stylesheet" href="css/skyfall-tema.css">
+	<title>Skyfall&reg; - Saltos de Paraquedas</title>
 </head>
 <body>
 	<!-- new heading -->
@@ -17,34 +20,78 @@
 		<span class="navbar-brand mb-0 h1">Skyfall &reg;</span>
 	</nav>
 	<main> 
-		<section id="apresentacao">
-			<h1>Bem vindo a Skyfall</h1>
-			<h2>Sabia tudo sobre saltos de paraquedas e agende o seu com a gente!</h2>
-			<form>
-				<input type="search">
-				<button>Pesquisar</button>
-			</form>	
-		</section><!--end apresentacao-->
+		<header class="jumbotron jumbotron-fluid" id="apresentacao">
+			<div class="container">
+				<h1>Bem vindo a Skyfall</h1>
+				<h2>Sabia tudo sobre saltos de paraquedas e agende o seu com a gente!</h2>
+				<form class="input-group">
+					<input class="form-control" type="search">
+					<span class="input-group-btn">
+						<button class="btn btn-primary">Pesquisar</button>
+					</span>
+				</form>
+			</div>
+		</header><!--end apresentacao-->
 		<section id="galeria">
-			<h1>Conheça mais sobre saltos com nossa galeria</h1>
-			<h2>Conheca as etapas pre-salto, queda e pós-salto</h2>
-			<div>
-				<img src="img/img-paraquedas1.jpg" alt="Salto Paraquedas">
-				<img src="img/img-paraquedas2.jpg" alt="Salto Paraquedas">
-				<img src="img/img-paraquedas3.jpg" alt="Salto Paraquedas">
-				<img src="img/img-paraquedas4.jpg" alt="Salto Paraquedas">
-				<img src="img/img-paraquedas5.jpg" alt="Salto Paraquedas">
-				<img src="img/img-paraquedas6.jpg" alt="Salto Paraquedas">
+			<div class="container">
+				<h1>Conheça mais sobre saltos com nossa galeria</h1>
+				<h2>Conheca as etapas pre-salto, queda e pós-salto</h2>
+			</div>
+			<div class="row">
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas1.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas2.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas3.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas4.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas5.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
+				<a class="col-md-4 col-lg-4" href="#">
+					<figure class="figure-img">
+						<img class="img-thumbnail" src="img/img-paraquedas6.jpg" alt="Salto Paraquedas">
+						<!-- figcaption>Girassóis</figcaption-->
+					</figure>
+				</a>
 			</div>
 		</section><!--end galerias-->
-		<section id="promocao">
-			<h1>Promoção de Feriado não perca</h1>
-			<p>
-				Papai Noel está passando por aqui.<br>
-				Na compra de dois saltos ganhe fotografia, filmagem e traslado!<br>
-				Válido apenas entre 20/12 à 20/01.
-			</p>
-			<img src="img/promocao.jpg" alt="promoção">
+		<section class="hall bg-dark text-light pt-sm-4" id="promocao">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-6">
+						<h1>Promoção de Feriado não perca</h1>
+						<p>
+							Papai Noel está passando por aqui.<br>
+							Na compra de dois saltos ganhe fotografia, filmagem e traslado!<br>
+							Válido apenas entre 20/12 à 20/01.
+						</p>
+					</div>					
+					<figure class="col-lg-6 mt-4">
+						<img class="img-fluid img-thumbnail" src="img/promocao.jpg" alt="promoção">
+					</figure>
+				</div>
+			</div>
 		</section><!--end promocao-->
 		<section id="depoimentos">
 			<h1>Depoimentos</h1>
